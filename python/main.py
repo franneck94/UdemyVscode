@@ -1,5 +1,6 @@
 from lib import func3
 
+
 def main():
     func3()
 
