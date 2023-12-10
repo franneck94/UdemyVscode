@@ -1,6 +1,6 @@
 # C/C++ Runner Extension
 
-## Single FIle
+## Single File
 
 ### Windows and Linux
 
