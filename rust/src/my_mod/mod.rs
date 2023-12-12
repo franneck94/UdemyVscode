@@ -4,8 +4,9 @@ fn private_function() {
 }
 
 // Use the `pub` modifier to override default visibility.
-pub fn function() {
+pub fn function() -> i32 {
     println!("called `my_mod::function()`");
+    return 0_i32;
 }
 
 // Items can access other items in the same module,
@@ -77,5 +78,20 @@ mod private_nested {
     #[allow(dead_code)]
     pub(crate) fn restricted_function() {
         println!("called `my_mod::private_nested::restricted_function()`");
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_function1() {
+        assert_eq!(function(), 0);
+    }
+
+    #[test]
+    fn test_function2() {
+        assert_eq!(function(), 0);
     }
 }
