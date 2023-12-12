@@ -13,8 +13,8 @@ Note: The shortcuts may differ in osx.
 - Search and Replace in File: `Ctrl+H`
 - Replace one finding: `Enter`
 - Replace all findings: `Ctrl+Alt+Enter`
-- Fold All: `Ctrl+K, Ctrl+0`
-- Unfold All: `Ctrl+K, Ctrl+J`
+- Fold/Collapse All Definitions: `Ctrl+K, Ctrl+0`
+- Unfold/Uncollapse All Definitions: `Ctrl+K, Ctrl+J`
 - Fold Level (x=1-9): `Ctrl+K, Ctrl+x`
 - Format Document: `Ctrl+Alt+F`
 - Go Back: `Alt+LeftArrow`
