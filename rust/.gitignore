@@ -1,2 +1,6 @@
-/target
-/Cargo.lock
+target/
+debug/
+release/
+rls/
+*.o
+.vscode/

@@ -1,4 +1,4 @@
-mod my;
+mod my_mod;
 
 fn function() {
     println!("called `function()`");
@@ -7,9 +7,9 @@ fn function() {
 fn main() {
     function();
 
-    my::function();
+    my_mod::function();
 
-    my::indirect_access();
+    my_mod::indirect_access();
 
-    my::nested::indirect_access();
+    my_mod::nested::indirect_access();
 }
