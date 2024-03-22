@@ -1,4 +1,4 @@
-def func1():
+def func1() -> int:
     a1 = 1
     a2 = 1
     a3 = 1
@@ -9,11 +9,11 @@ def func1():
     return a
 
 
-def func2():
-    res = func1()
-    return res
+def my_func2() -> int:
+    ret_value = func1()
+    return ret_value
 
 
-def func3():
-    res = func2()
+def my_func3() -> int:
+    res = my_func2()
     return res

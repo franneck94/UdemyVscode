@@ -1,8 +1,8 @@
-from lib import func3
+from lib import my_func3
 
 
 def main():
-    func3()
+    my_func3()
 
 
 if __name__ == "__main__":
